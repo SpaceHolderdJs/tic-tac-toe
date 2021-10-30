@@ -5,12 +5,12 @@ import { Context } from "../App";
 import styles from "../styles/raiting.module.scss";
 
 export default function Raiting() {
-  const { store, dispatch } = useContext(Context);
+  const { store } = useContext(Context);
   return (
     <div className={`column  ${styles.raiting}`}>
       <h1>Raiting</h1>
       {Object.values(store.players).map((player) => (
-        <p>
+        <p key={player.name}>
           [{player.mark}] {player.name}: {player.score}
         </p>
       ))}

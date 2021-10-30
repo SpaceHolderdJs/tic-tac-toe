@@ -63,7 +63,7 @@ const Playgrounditem = ({ n, initGame }) => {
         (player) => player.mark === currentPlayer.mark
       );
       console.log(keyOfPlayer);
-      alert(`Win ${currentPlayer.name} ${currentPlayer.mark}`);
+
       dispatch({
         type: "INIT_PLAYERS",
         payload: {
