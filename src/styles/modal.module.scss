@@ -1,0 +1,14 @@
+.modalBackface {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+
+  .modal {
+    width: 40%;
+    border-radius: 20px;
+    background: linear-gradient(-90deg, rgb(80, 90, 120), rgb(30, 40, 70));
+  }
+}

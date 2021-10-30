@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato");
+
+* {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(-90deg, rgb(80, 90, 120), rgb(30, 40, 70));
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .centered {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sp-btw {
+    justify-content: space-between;
+  }
+
+  .shadow {
+    box-shadow: 0px 0px 10px 2px black;
+  }
+}
